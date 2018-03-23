@@ -1,0 +1,120 @@
+.top-head-logo {
+  display: inline-block;
+  width: 100%;
+  padding: 24px 0;
+}
+.health-logo {
+  padding: 0;
+}
+.my-health {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
+  position: relative;
+}
+.my-health strong.myhealth, .my-health h4 {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #1565c0;
+}
+.text-center {
+  text-align: center;
+}
+.logo img {
+    margin: 0 6px;
+}
+.top-head-logo .logo-ministry-right {
+    margin-top: 15px;
+}
+.header-table {
+  background: transparent;
+  display: block;
+  float: left;
+  border: 0;
+  margin-bottom: 15px;
+
+  width: 100%;
+
+}
+nav.navbar.navbar-default.top-header {
+    background: transparent;
+    display: block;
+    float: left;
+    border: 0;
+    margin-bottom: 15px;
+
+    width: 100%;
+}
+nav.navbar.navbar-default.top-header div#bs-example-navbar-collapse-1 {
+    padding: 0;
+}
+nav.navbar.navbar-default.top-header .nav-justified {
+    width: 100%;
+    display: table;
+}
+nav.navbar.navbar-default.top-header .nav-justified>li {
+    display: table-cell;
+    width: auto;
+    text-align: left;
+}
+.top-header .nav-justified>li span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.top-header .nav-pills>li a {
+    vertical-align: middle;
+    color: #555;
+    text-transform: uppercase;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
+    transition: all .5s ease-in-out;
+  }
+  .top-header .nav-pills > li a {
+    text-decoration: none;
+}
+.top-header .nav-pills>li a span {
+    display: block;
+    text-transform: capitalize;
+    font-size: 14px;
+    text-align: left;
+    font-weight: normal;
+
+}
+.top-header .nav-justified>li span {
+
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.top-header .nav-pills>li a:hover {
+    color: #3d6596;
+}
+.top-header .nav-pills>li a:hover {
+    background: transparent;
+}
+.header-image {
+  background-color: #59d8fa;
+  width: 100%;
+  height: 215px;
+}
+.banner-text {
+  padding-top: 50px;
+}
+.banner-text h1 {
+color: #fff;
+margin: 0;
+}
+.banner-text span {
+font-size: 15px;
+color: #f7f7f7;
+text-transform: capitalize;
+margin: 0;
+}
+.offset-tabs {
+  padding-top: 10px;
+  
