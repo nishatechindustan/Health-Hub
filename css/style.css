@@ -115,6 +115,149 @@ color: #f7f7f7;
 text-transform: capitalize;
 margin: 0;
 }
-.offset-tabs {
-  padding-top: 10px;
-  
+.footer-top {
+color: #000;
+background: #59d8fa;
+padding-top: 60px;
+clear: both;
+overflow: hidden;
+position: relative;
+}
+.get-our-trip {
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+.get-our-app {
+  display: inline-block;
+  padding-right: 0;
+  text-align: left;
+}
+.get-our-app h5 {
+font-size: 24px;
+padding-left: 0;
+margin-bottom: 18px;
+margin-top: 0;
+}
+.get-our-app p {
+font-size: 16px;
+margin-bottom: 6px;
+vertical-align: middle;
+display: inline-block;
+}
+.get-our-icon {
+  padding-top: 100px;
+  position: relative;
+}
+.side-image.mobile-app {
+  margin-right: 15px;
+}
+.mobile-app {
+width: auto;
+max-width: 100%;
+}
+.mobile-star {
+  position: absolute;
+  top: -11%;
+  right: 0;
+  display: inline-block;
+}
+.footer-bottom {
+  display: block;
+  background: #2e2800;
+  padding: 30px 0;
+}
+.nav-ul {
+  padding: 0;
+}
+ul.nav-footer {
+  padding: 0;
+  margin: 0;
+  margin-top: 11px;
+  display: table;
+  width: 100%;
+}
+ul.nav-footer li {
+    display: table-cell;
+    text-align: center;
+}
+ul.nav-footer li a {
+font-size: 16px;
+color: #fff;
+font-weight: 500;
+text-align: center;
+list-style: none;
+text-decoration: none;
+text-transform: uppercase;
+display: inline-block;
+vertical-align: middle;
+transition: all .5s ease-in-out;
+}
+ul.nav-footer li a span {
+display: block;
+font-size: 12px;
+text-transform: capitalize;
+vertical-align: middle;
+}
+.footer-last {
+  display: block;
+  padding: 20px;
+}
+.footer-last ul {
+  padding: 0;
+}
+.footer-last li {
+  font-size: 12px;
+  font-weight: normal;
+  display: inline-block;
+  margin: auto 10px;
+  text-transform: capitalize;
+}
+.footer-last li a {
+font-size: 13px;
+text-decoration: underline;
+color: #4a709d;
+transition: all .5s ease-in-out;
+}
+.footer-text {
+font-size: 11px;
+letter-spacing: 1px;
+margin-bottom: 0;
+color: #526173;
+}
+.section-diseases h2 {
+  font-size: 30px;
+  color: #526173;
+  padding-left: 0;
+  margin-top: 0;
+}
+.section-diseases a {
+  cursor: pointer;
+  font-size: 35px;
+  color: #59d8fa;
+  text-decoration: underline;
+  line-height: 1;
+}
+.star {
+  position: absolute;
+      right: 320px;
+      top: 15px;
+}
+/* .top-card-wrapper {
+    width: 23%;
+    margin: 0 1%;
+    height: auto;
+    background-color: #fff;
+    float: left;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+}
+.top-card-image {
+    position: relative;
+}
+.top-card-image img {
+    width: 100%;
+}
+.top-card-content {
+    padding: 14px;
+} */
