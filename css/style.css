@@ -261,6 +261,7 @@ color: #526173;
   padding-left: 0;
   margin-top: 0;
   font-family: 'Viga';
+  display: inline-block;
 }
 .heading a {
   cursor: pointer;
@@ -268,17 +269,12 @@ color: #526173;
   color: #59d8fa;
   text-decoration: underline;
   line-height: 1;
+  display: block;
 }
 .star {
-  position: absolute;
-      right: 320px;
-      top: 15px;
+display: inline-block;
 }
-.star1 {
-  position: absolute;
-    left: 350px;
-    top: 15px;
-}
+
 .heading {
 
     position: relative;
@@ -343,6 +339,7 @@ margin: auto;
   padding-left: 0;
   margin-top: 0;
   font-family: 'Viga';
+  display: inline-block;
 }
 .heading-cost a {
 cursor: pointer;
@@ -350,6 +347,7 @@ font-size: 22px;
 color: #59d8fa;
 text-decoration: underline;
 line-height: 1;
+display: block;
 }
 
 .section-medical {
@@ -367,39 +365,23 @@ padding-bottom: 50px;
 .img-responsive {
   width: 100%;
 }
-
-
-.centered-pills {
-  text-align: center;
-
-  font-size: 18px;
+ul.nav.nav-tabs.tab_navbar {
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    padding-top: 20px;
 }
-.centered-pills ul.nav-pills {
-  display: inline-block;
+ul.nav.nav-tabs.tab_navbar li.active {
+    border-bottom: 4px solid #3d6596;
 }
-.centered-pills li {
-  display: inline;
-}
-.nav-stacked {
-  display: inline-flex!important;
-}
-
-.nav>li>a:hover {
-  background-color: transparent;
-}
-.nav-pills>li.active>a,.nav-pills>li.active>a:hover {
-
+ul.nav.nav-tabs.tab_navbar li a {
+    border: none;
     background-color: transparent;
-}
-.nav>li>a {
-  color: #fff;
-
-}
-ul.nav.nav-pills.nav-stacked li.active {
-    border-bottom: 4px solid #3d6596 !important;
-}
-.nav-pills>li>a {
-    border-radius: 0px;
+    color: #fff;
+    font-size: 18px;
+    float: none;
+    display: inline-block;
 }
 .nav>li>a {
       padding: 10px 60px;
