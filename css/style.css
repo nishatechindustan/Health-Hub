@@ -291,14 +291,14 @@ display: inline-block;
 
 /********************slider section**********************/
 
-.myslider {
+.myhealth {
   border: 1px solid #e4e6e9;
   background-color: #fff;
 }
 .health-promo {
     padding: 0 12px 25px;
 }
-.myslider button.learn-more-slide {
+.myhealth button.learn-more-slide {
     background: transparent;
     box-shadow: none;
     border: none;
@@ -312,14 +312,15 @@ display: inline-block;
 }
 .health-promo span{
 color: #b4bbc3;
-font-size: 13px;
+font-size: 12px;
 }
 .health-promo h3 {
-  font-size: 18px;
+  font-size: 17px;
   color: #3d6596;
   margin-bottom: 0;
+  font-family: 'Viga';
 }
-.myslider button.share-slide {
+.myhealth button.share-slide {
   border: none;
   background: transparent;
 }
@@ -385,4 +386,14 @@ ul.nav.nav-tabs.tab_navbar li a {
 }
 .nav>li>a {
       padding: 10px 60px;
+}
+.arrow {
+  position: absolute;
+    top: 700px;
+    left: 45px;
+}
+.arrow1 {
+  position: absolute;
+  top: 700px;
+  right: 45px;
 }
