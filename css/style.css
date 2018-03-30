@@ -387,13 +387,73 @@ ul.nav.nav-tabs.tab_navbar li a {
 .nav>li>a {
       padding: 10px 60px;
 }
-.arrow {
-  position: absolute;
-    top: 700px;
-    left: 45px;
+
+
+
+.slider-section{
+  width: 100%;
+  margin: auto;
+  background-color: #fff;
 }
-.arrow1 {
-  position: absolute;
-  top: 700px;
-  right: 45px;
+.slider-wrapper{
+  padding: 15px;
+}
+
+.myslider > div img{
+  width: 100%;
+}
+.slick-prev:before, .slick-next:before{
+  background-color: #59d8fa  !important;
+  border-radius: 50%;
+  background-image: url("images/slid.png");
+
+}
+
+
+.slider-section .slick-dots li button {
+    font-size: 10px !important;
+    color: #000;
+
+
+}
+
+.slider-section .slick-dots li.slick-active  button::before{
+  background:  #59d8fa !important;
+  color: #fff;
+}
+
+.slider-section .slick-dots li button::before{
+  background:  #ccc!important;
+  color: #555;
+}
+.slider-section .slick-dots li:hover button::before{
+  color: #000;
+  background:  #ccc!important;
+  opacity: .5;
+
+}
+.slick-prev:before, .slick-next:before {
+  font-size: 30px!important;
+
+}
+/* .slick-prev {
+    left: -50px!important;
+}
+.slick-next {
+  right: -50px!important;
+} */
+
+
+
+
+.slick-dots li button::before {
+    font-size: 12px !important;
+    border-radius: 50% !important;
+    padding: 5px !important;
+    line-height: 10px !important;
+    content:''!important;
+
+}
+.slide-content{
+  padding: 15px;
 }
