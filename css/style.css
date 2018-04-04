@@ -25,9 +25,9 @@ body {
   width: 100%;
   padding: 24px 0;
 }
-.health-logo {
+/* .health-logo {
   padding: 0;
-}
+} */
 .myhealth {
   display: inline-block;
   vertical-align: middle;
@@ -269,7 +269,7 @@ color: #526173;
   font-size: 22px;
   color: #59d8fa;
   text-decoration: underline;
-  line-height: 1;
+  line-height: 0;
   display: block;
 }
 .star {
@@ -350,7 +350,7 @@ cursor: pointer;
 font-size: 22px;
 color: #59d8fa;
 text-decoration: underline;
-line-height: 1;
+line-height: 0;
 display: block;
 }
 
@@ -383,7 +383,7 @@ ul.nav.nav-tabs.tab_navbar li a {
     border: none;
     background-color: transparent;
     color: #fff;
-    font-size: 18px;
+
     float: none;
     display: inline-block;
 }
@@ -482,53 +482,23 @@ ul.nav.nav-tabs.tab_navbar li a {
     .health-promo h3 {
       font-size: 12px!important;
       }
-      .side-image.mobile-app {
-          margin-right: 0px;
-      }
+
       .footer-bottom {
     display: none;
   }
-    .get-our-app p {
-    font-size: 13px;
-    margin-bottom: 0px;
-    vertical-align: middle;
-    display: block;
+  .mobile-star {
+      top: -200%;
 }
-.get-our-app p {
-    font-size: 13px;
-    margin-bottom: 0px;
-    vertical-align: middle;
-    display: block;
-}
-.get-our-app p {
-    font-size: 13px;
-    margin-bottom: 0px;
-    vertical-align: middle;
-    display: block;
-}
-.mobile-star {
-  display: none;
-}
-/* .col-sm-4 {
-  width: 0!important;
-} */
-/* .col-sm-4 {
-    width: 50% !important;
-} */
 .get-our-icon {
   padding-top: 10px;
   margin-bottom: 50px;
-  display: inline-flex;
-  width: 50%;
+
+  width: 100%;
 }
 .mobile-app {
-  padding-left: 10px;
-}
-.mobile-pic-head {
-  width: 50%;
+margin-right: 20px;
 }
 }
-
 @media only screen and (max-width: 768px) {
 
 .top-header .nav-pills>li a span {
@@ -543,12 +513,206 @@ ul.nav.nav-tabs.tab_navbar li a {
 .slick-prev {
     left: -10px!important;
 }
+.get-our-app p {
+    font-size: 13px;
+}
+}
+@media only screen and (max-width: 414px) {
+  .heading h2 {
+    font-size: 22px;
+  }
+  .heading-cost h2 {
+    font-size: 22px;
+  }
+  nav.navbar.navbar-default.top-header {
+    margin-bottom: 0;
+  }
+  nav.navbar.navbar-default.top-header .nav-justified {
+    display: table;
+    padding: 16px 0;
+    height: 248px;
+  }
+  nav.navbar.navbar-default.top-header .nav-justified>li {
+  margin: 0 5%;
+    width: 40%;
+  }
+  .nav-justified>li {
+    float: left;
+    display: inline;
+    padding: 8px 0;
+  }
+  .health-logo {
+    padding-top: 0px;
+  }
+  .logo-image {
+    display: inline-block;
+      width: 30px;
+  }
+
+    .top-header .nav-pills>li a span {
+      font-size: 10px;
+  }
+
+    .myhealth strong.myhealth, .myhealth h4 {
+      font-size: 10px;
+    }
+    .top-head-logo .logo-ministry-right {
+      margin-top: 8px;
+    }
+    .top-head-logo {
+      padding: 5px 0;
+    }
+    .myhealth {
+      margin-top: 5px;
+      display: inline-block;
+    }
+    .get-our-app {
+        display: block;
+        padding: 20px 0px 20px;
+        text-align: center;
+        width: 100%
+    }
+    .get-our-app h5 {
+      font-size: 20px;
+      margin-bottom: 6px;
+    }
+    .mobile-pic-head {
+        width: 100%;
+    }
+    .get-our-app p {
+      font-size: 10px;
+      display: block;
+      margin-bottom: 0;
+    }
+
+
 }
 @media only screen and (max-width: 375px) {
 .nav>li>a {
     padding: 10px 50px;
 }
-ul.nav.nav-tabs.tab_navbar li a {
-  font-size: 15px;
+.heading h2 {
+  font-size: 19px;
+}
+.heading-cost h2 {
+  font-size: 19px;
+}
+.heading a {
+  font-size:18px;
+}
+.heading-cost a {
+  font-size: 18px;
+}
+.get-our-app {
+    display: block;
+    padding: 20px 0px 20px;
+    text-align: center;
+    width: 100%
+}
+.get-our-app h5 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+.mobile-pic-head {
+    width: 100%;
+}
+.get-our-app p {
+  font-size: 10px;
+  display: block;
+  margin-bottom: 0;
+}
+.mobile-star {
+    top: -110%;
+    width: 15%;
+}
+
+  .top-header .nav-pills>li a span {
+    font-size: 10px;
+}
+
+  .myhealth strong.myhealth, .myhealth h4 {
+    font-size: 10px;
+  }
+  .top-head-logo .logo-ministry-right {
+    margin-top: 8px;
+  }
+  .top-head-logo {
+    padding: 5px 0;
+  }
+  .myhealth {
+    margin-top: 5px;
+    display: inline-block;
+  }
+  nav.navbar.navbar-default.top-header {
+    margin-bottom: 0;
+  }
+nav.navbar.navbar-default.top-header .nav-justified {
+    display: table;
+    padding: 16px 0;
+    height: 248px;
+}
+nav.navbar.navbar-default.top-header .nav-justified>li {
+  margin: 0 5%;
+    width: 40%;
+}
+.nav-justified>li {
+    float: left;
+    display: inline;
+    padding: 8px 0;
+}
+.health-logo {
+  padding-top: 0px;
+}
+.logo-image {
+  display: inline-block;
+    width: 30px;
+}
+
+}
+@media only screen and (max-width: 320px) {
+  .nav>li>a {
+    padding: 10px 40px;
+}
+.mobile-app {
+  width: 40%;
+  }
+  .footer-last li a{
+    font-size: 10px;
+}
+.footer-text {
+  font-size: 6px;
+}
+.top-header .nav-pills>li a span {
+  font-size: 9px;
+}
+.myhealth strong.myhealth, .myhealth h4 {
+  font-size: 8px;
+}
+.logo-image {
+  width: 25px;
+}
+.book-image {
+  width: 8%!important;
+}
+.heading h2 {
+    font-size: 14px;
+}
+.heading a {
+    font-size: 12px;
+}
+
+}
+@media only screen and (max-width: 280px) {
+  .nav>li> a {
+    padding: 10px 30px;
+}
+.top-header .nav-pills > li a {
+  font-size: 10px;
+}
+.top-header .nav-pills > li a span {
+  font-size: 7px;
+}
+.myhealth strong.myhealth, .myhealth h4 {
+    font-size: 6px;
 }
 }

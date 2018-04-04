@@ -57,11 +57,11 @@
 {
     opacity: 1;
 }
-.slick-prev.slick-disabled:before,
+/* .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before
 {
     opacity: .25;
-}
+} */
 
 .slick-prev:before,
 .slick-next:before
@@ -70,7 +70,7 @@
     font-size: 20px;
     line-height: 1;
 
-    opacity: .75;
+    /* opacity: .75; */
     color: white;
 
     -webkit-font-smoothing: antialiased;
@@ -89,10 +89,12 @@
 .slick-prev:before
 {
     content: '←';
+    
 }
 [dir='rtl'] .slick-prev:before
 {
     content: '→';
+
 }
 
 .slick-next
