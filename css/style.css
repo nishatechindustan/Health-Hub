@@ -1,134 +1,128 @@
-
 @font-face {
-    font-family: 'Nunito';
-    src: url('../fonts/Nunito-Regular.woff') format('woff'),
-        url('../fonts/Nunito-Regular.eot') format('eot');
-    font-weight: normal;
-    font-style: normal;
+font-family: 'Nunito';
+src: url('../fonts/Nunito-Regular.woff') format('woff'),
+url('../fonts/Nunito-Regular.eot') format('eot');
+font-weight: normal;
+font-style: normal;
 }
-
 @font-face {
-    font-family: 'Viga';
-    src: url('../fonts/viga-regular-webfont.woff2') format('woff2'),
-        url('../fonts/Viga-Regular.woff') format('woff'),
-        url('../fonts/Viga-Regular.eot') format('eot');
-    font-weight: normal;
-    font-style: normal;
+font-family: 'Viga';
+src: url('../fonts/viga-regular-webfont.woff2') format('woff2'),
+url('../fonts/Viga-Regular.woff') format('woff'),
+url('../fonts/Viga-Regular.eot') format('eot');
+font-weight: normal;
+font-style: normal;
 }
-
-
 body {
-  font-family: 'Nunito';
+font-family: 'Nunito';
 }
 .top-head-logo {
-  display: inline-block;
-  width: 100%;
-  padding: 24px 0;
+display: inline-block;
+width: 100%;
+padding: 24px 0;
 }
 /* .health-logo {
-  padding: 0;
+padding: 0;
 } */
 .myhealth {
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: 10px;
-  position: relative;
+display: inline-block;
+vertical-align: middle;
+margin-top: 10px;
+position: relative;
 }
 .myhealth strong.myhealth, .myhealth h4 {
-  text-transform: uppercase;
-    display: inline-block;
-    font-size: 18px;
-    line-height: 2.5;
-    text-align: left;
-    color: #494c4a;
-    font-family: viga;
+text-transform: uppercase;
+display: inline-block;
+font-size: 18px;
+line-height: 2.5;
+text-align: left;
+color: #494c4a;
+font-family: viga;
 }
 .text-center {
-  text-align: center;
+text-align: center;
 }
 .logo img {
-    margin: 0 6px;
+margin: 0 6px;
 }
-.top-head-logo .logo-ministry-right {
-    margin-top: 15px;
+.logo-ministry-right {
+margin-top: 10px;
 }
+/* .top-head-logo .logo-ministry-right {
+margin-top: 15px;
+} */
 .header-table {
-  background: transparent;
-  display: block;
-  float: left;
-  border: 0;
-  margin-bottom: 15px;
-
-  width: 100%;
-
+background: transparent;
+display: block;
+float: left;
+border: 0;
+margin-bottom: 15px;
+width: 100%;
 }
 nav.navbar.navbar-default.top-header {
-    background: transparent;
-    display: block;
-    float: left;
-    border: 0;
-    margin-bottom: 15px;
-
-    width: 100%;
+background: transparent;
+display: block;
+float: left;
+border: 0;
+margin-bottom: 15px;
+width: 100%;
 }
 nav.navbar.navbar-default.top-header div#bs-example-navbar-collapse-1 {
-    padding: 0;
+padding: 0;
 }
 nav.navbar.navbar-default.top-header .nav-justified {
-    width: 100%;
-    display: table;
+width: 100%;
+display: table;
 }
 nav.navbar.navbar-default.top-header .nav-justified>li {
-    display: table-cell;
-    width: auto;
-    text-align: left;
+display: table-cell;
+width: auto;
+text-align: left;
 }
 .top-header .nav-justified>li span {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 4px;
+display: inline-block;
+vertical-align: middle;
+margin-right: 4px;
 }
 .top-header .nav-pills>li a {
-    vertical-align: middle;
-    color: #494c4a;
-    text-transform: uppercase;
-    padding: 0;
-    display: inline-block;
-    text-align: left;
-    font-weight: 500;
-    transition: all .5s ease-in-out;
-    font-family: viga
-  }
-  .top-header .nav-pills > li a {
-    text-decoration: none;
-    font-size: 13px;
+vertical-align: middle;
+color: #494c4a;
+text-transform: uppercase;
+padding: 0;
+display: inline-block;
+text-align: left;
+font-weight: 500;
+transition: all .5s ease-in-out;
+font-family: viga
+}
+.top-header .nav-pills > li a {
+text-decoration: none;
+font-size: 13px;
 }
 .top-header .nav-pills>li a span {
-    display: block;
-    text-transform: capitalize;
-    font-size: 12px;
-    text-align: left;
-    font-weight: normal;
-    font-family: 'Nunito';
+display: block;
+text-transform: capitalize;
+font-size: 12px;
+text-align: left;
+font-weight: normal;
+font-family: 'Nunito';
 }
 .top-header .nav-justified>li span {
-
-    vertical-align: middle;
-    margin-right: 4px;
+vertical-align: middle;
+margin-right: 4px;
 }
 .top-header .nav-pills>li a:hover {
-    color: #3d6596;
+color: #3d6596;
 }
 .top-header .nav-pills>li a:hover {
-    background: transparent;
+background: transparent;
 }
 .header-image {
-  background-color: #59d8fa;
-  width: 100%;
-
+background-color: #59d8fa;
+width: 100%;
 }
 .banner-text {
-  padding-top: 50px;
+padding-top: 50px;
 }
 .banner-text h1 {
 color: #fff;
@@ -149,15 +143,12 @@ overflow: hidden;
 position: relative;
 }
 .get-our-trip {
-  padding: 0;
-}
-img {
-  max-width: 100%;
+padding: 0;
 }
 .get-our-app {
-  display: inline-block;
-  padding-right: 0;
-  text-align: left;
+display: inline-block;
+padding-right: 0;
+text-align: left;
 }
 .get-our-app h5 {
 font-size: 24px;
@@ -172,45 +163,45 @@ vertical-align: middle;
 display: inline-block;
 }
 .get-our-app i.fa.fa-heart {
-    color: #000;
-    margin: auto 8px 0 0;
-    font-size: 16px;
+color: #000;
+margin: auto 8px 0 0;
+font-size: 16px;
 }
 .get-our-icon {
-  padding-top: 100px;
-  position: relative;
+padding-top: 100px;
+position: relative;
 }
 .side-image.mobile-app {
-  margin-right: 15px;
+margin-right: 15px;
 }
 .mobile-app {
 width: auto;
 max-width: 100%;
 }
 .mobile-star {
-  position: absolute;
-  top: -11%;
-  right: 0;
-  display: inline-block;
+position: absolute;
+top: -11%;
+right: 0;
+display: inline-block;
 }
 .footer-bottom {
-  display: block;
-  background: #2e2800;
-  padding: 30px 0;
+display: block;
+background: #2e2800;
+padding: 30px 0;
 }
 .nav-ul {
-  padding: 0;
+padding: 0;
 }
 ul.nav-footer {
-  padding: 0;
-  margin: 0;
-  margin-top: 11px;
-  display: table;
-  width: 100%;
+padding: 0;
+margin: 0;
+margin-top: 11px;
+display: table;
+width: 100%;
 }
 ul.nav-footer li {
-    display: table-cell;
-    text-align: center;
+display: table-cell;
+text-align: center;
 }
 ul.nav-footer li a {
 font-size: 16px;
@@ -231,18 +222,18 @@ text-transform: capitalize;
 vertical-align: middle;
 }
 .footer-last {
-  display: block;
-  padding: 20px;
+display: block;
+padding: 20px;
 }
 .footer-last ul {
-  padding: 0;
+padding: 0;
 }
 .footer-last li {
-  font-size: 12px;
-  font-weight: normal;
-  display: inline-block;
-  margin: auto 10px;
-  text-transform: capitalize;
+font-size: 12px;
+font-weight: normal;
+display: inline-block;
+margin: auto 10px;
+text-transform: capitalize;
 }
 .footer-last li a {
 font-size: 13px;
@@ -257,75 +248,69 @@ margin-bottom: 0;
 color: #526173;
 }
 .heading h2 {
-  font-size: 35px;
-  color: #526173;
-  padding-left: 0;
-  margin-top: 0;
-  font-family: 'Viga';
-  display: inline-block;
+font-size: 35px;
+color: #526173;
+padding-left: 0;
+margin-top: 0;
+font-family: 'Viga';
+display: inline-block;
 }
 .heading a {
-  cursor: pointer;
-  font-size: 22px;
-  color: #59d8fa;
-  text-decoration: underline;
-  line-height: 0;
-  display: block;
+cursor: pointer;
+font-size: 22px;
+color: #59d8fa;
+text-decoration: underline;
+line-height: 0;
+display: block;
 }
 .star {
 display: inline-block;
 }
-
 .heading {
-
-    position: relative;
-    padding: 30px 20px;
-    text-align: center;
-    margin: auto;
+position: relative;
+padding: 30px 20px;
+text-align: center;
+margin: auto;
 }
 .section-diseases {
-  padding-bottom: 50px;
+padding-bottom: 50px;
 }
 b, strong {
-    font-weight: 50!important;
+font-weight: 50!important;
 }
-
-
-
 /********************slider section**********************/
-
 .my-health {
-  border: 1px solid #e4e6e9;
-  background-color: #fff;
+border: 1px solid #e4e6e9;
+background-color: #fff;
 }
 .health-promo {
-    padding: 0 12px 25px;
+padding: 0 12px 25px;
 }
 .my-health button.learn-more-slide {
-    background: transparent;
-    box-shadow: none;
-    border: none;
-    color: #59d8fa;
-    font-size: 14px;
+background: transparent;
+box-shadow: none;
+border: none;
+color: #59d8fa;
+font-size: 14px;
 }
 .health-promo p {
-  padding-top: 15px;
-  color: #556476;
-  padding-bottom: 15px;
+padding-top: 15px;
+color: #556476;
+padding-bottom: 15px;
 }
 .health-promo span{
 color: #b4bbc3;
 font-size: 12px;
 }
 .health-promo h3 {
-  font-size: 17px;
-  color: #3d6596;
-  margin-bottom: 0;
-  font-family: 'Viga';
+font-size: 17px;
+color: #3d6596;
+margin-bottom: 0;
+font-family: 'Viga';
 }
 .my-health button.share-slide {
-  border: none;
-  background: transparent;
+border: none;
+background: transparent;
 }
 .section-cost {
 background-color: #3d6596;
@@ -338,12 +323,12 @@ text-align: center;
 margin: auto;
 }
 .heading-cost h2{
-  font-size: 35px;
-  color: #fff;
-  padding-left: 0;
-  margin-top: 0;
-  font-family: 'Viga';
-  display: inline-block;
+font-size: 35px;
+color: #fff;
+padding-left: 0;
+margin-top: 0;
+font-family: 'Viga';
+display: inline-block;
 }
 .heading-cost a {
 cursor: pointer;
@@ -353,366 +338,398 @@ text-decoration: underline;
 line-height: 0;
 display: block;
 }
-
 .section-medical {
 background-color: #fff;
 padding-bottom: 50px;
 }
 .section-medications {
-  padding-bottom: 50px;
-  background-color: #c9f5fe;
+padding-bottom: 50px;
+background-color: #c9f5fe;
 }
 .section-support {
-  padding-bottom: 50px;
-  background-color: #fff;
+padding-bottom: 50px;
+background-color: #fff;
 }
 .img-responsive {
-  width: 100%;
+width: 100%;
 }
 ul.nav.nav-tabs.tab_navbar {
-    border: none;
-    text-align: center;
-    margin: 0 auto;
-    display: table;
-    padding-top: 20px;
+border: none;
+text-align: center;
+margin: 0 auto;
+display: table;
+padding-top: 20px;
 }
 ul.nav.nav-tabs.tab_navbar li.active {
-    border-bottom: 4px solid #3d6596;
+border-bottom: 4px solid #3d6596;
 }
 ul.nav.nav-tabs.tab_navbar li a {
-    border: none;
-    background-color: transparent;
-    color: #fff;
-
-    float: none;
-    display: inline-block;
+border: none;
+background-color: transparent;
+color: #fff;
+float: none;
+display: inline-block;
 }
 .nav>li>a {
-      padding: 10px 60px;
+padding: 10px 60px;
 }
-
-
-
+.search-form {
+display: none;
+}
 .slider-section{
-  width: 100%;
-  margin: auto;
-  background-color: #fff;
+width: 100%;
+margin: auto;
+/* background-color: #fff; */
 }
 .slider-wrapper{
-  padding: 15px;
+padding: 15px;
 }
-
 .myslider > div img{
-  width: 100%;
+width: 100%;
 }
-.slick-prev:before, .slick-next:before{
-  background-color: #59d8fa  !important;
-  border-radius: 50%;
-  background-image: url("images/slid.png");
-
-}
-
-
 .slider-section .slick-dots li button {
-    font-size: 10px !important;
-    color: #000;
-
-
+font-size: 10px !important;
+color: #000;
 }
-
 .slider-section .slick-dots li.slick-active  button::before{
-  background:  #59d8fa !important;
-  color: #fff;
+background:  #59d8fa !important;
+color: #fff;
 }
-
 .slider-section .slick-dots li button::before{
-  background:  #ccc!important;
-  color: #555;
+background:  #ccc!important;
+color: #555;
 }
 .slider-section .slick-dots li:hover button::before{
-  color: #000;
-  background:  #ccc!important;
-  opacity: .5;
-
+color: #000;
+background:  #ccc!important;
+opacity: .5;
 }
 /* .slick-prev:before, .slick-next:before {
-  font-size: 35px!important;
-
-
+font-size: 35px!important;
 } */
 /* .slick-prev {
-    left: -50px!important;
+left: -50px!important;
 }
 .slick-next {
-  right: -50px!important;
+right: -50px!important;
 } */
-
 .slick-next {
-    right: -30px!important;
+right: -30px!important;
 }
 .slick-prev {
-    left: -30px!important;
+left: -48px!important;
 }
-
 .slick-dots li button::before {
-    font-size: 12px !important;
-    border-radius: 50% !important;
-    padding: 5px !important;
-    line-height: 10px !important;
-    content:''!important;
-
+font-size: 12px !important;
+border-radius: 50% !important;
+padding: 5px !important;
+line-height: 10px !important;
+content:''!important;
 }
 .slide-content{
-  padding: 15px;
+padding: 15px;
 }
 .slick-prev:before, .slick-next:before {
-    color: transparent;
-    z-index: 9999999;
-    opacity: 1;
+color: transparent;
+z-index: 9999999;
+opacity: 1;
+font-size: 45px!important;
+color: transparent!important;
 }
-.slick-prev:before {
-    content: '←'!important;
-    background-image: url("images/slide1.png");
-    background-repeat: no-repeat;
+.slider-section .myslider .slick-prev:before{
+background-image: url("../images/slide1.png");
+background-repeat: no-repeat;
+}
+.slider-section .myslider .slick-next:before{
+background-image: url("../images/slid.png");
+background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1024px) {
-  .health-promo span {
-    font-size: 10px!important;
-  }
-    .health-promo h3 {
-      font-size: 12px!important;
-      }
-
-      .footer-bottom {
-    display: none;
-  }
-  .mobile-star {
-      top: -200%;
+.health-promo span {
+font-size: 10px!important;
+}
+.health-promo h3 {
+font-size: 12px!important;
+}
+.footer-bottom {
+display: none;
+}
+.mobile-star {
+top: -200%;
 }
 .get-our-icon {
-  padding-top: 10px;
-  margin-bottom: 50px;
-
-  width: 100%;
+padding-top: 10px;
+margin-bottom: 50px;
+width: 100%;
 }
 .mobile-app {
 margin-right: 20px;
 }
 }
 @media only screen and (max-width: 768px) {
-
 .top-header .nav-pills>li a span {
-  font-size: 11px;
+font-size: 11px;
 }
 .top-header .nav-pills>li a span {
-  font-size: 12px;
+font-size: 12px;
 }
 .slick-next {
-    right: -10px!important;
+right: 15px!important;
 }
 .slick-prev {
-    left: -10px!important;
+left: 0!important;
+z-index: 9999;
 }
 .get-our-app p {
-    font-size: 13px;
+font-size: 13px;
 }
 }
 @media only screen and (max-width: 414px) {
-  .heading h2 {
-    font-size: 22px;
-  }
-  .heading-cost h2 {
-    font-size: 22px;
-  }
-  nav.navbar.navbar-default.top-header {
-    margin-bottom: 0;
-  }
-  nav.navbar.navbar-default.top-header .nav-justified {
-    display: table;
-    padding: 16px 0;
-    height: 248px;
-  }
-  nav.navbar.navbar-default.top-header .nav-justified>li {
-  margin: 0 5%;
-    width: 40%;
-  }
-  .nav-justified>li {
-    float: left;
-    display: inline;
-    padding: 8px 0;
-  }
-  .health-logo {
-    padding-top: 0px;
-  }
-  .logo-image {
-    display: inline-block;
-      width: 30px;
-  }
-
-    .top-header .nav-pills>li a span {
-      font-size: 10px;
-  }
-
-    .myhealth strong.myhealth, .myhealth h4 {
-      font-size: 10px;
-    }
-    .top-head-logo .logo-ministry-right {
-      margin-top: 8px;
-    }
-    .top-head-logo {
-      padding: 5px 0;
-    }
-    .myhealth {
-      margin-top: 5px;
-      display: inline-block;
-    }
-    .get-our-app {
-        display: block;
-        padding: 20px 0px 20px;
-        text-align: center;
-        width: 100%
-    }
-    .get-our-app h5 {
-      font-size: 20px;
-      margin-bottom: 6px;
-    }
-    .mobile-pic-head {
-        width: 100%;
-    }
-    .get-our-app p {
-      font-size: 10px;
-      display: block;
-      margin-bottom: 0;
-    }
-
-
+.logo-ministry-right {
+width: 100%;
+}
+.logo-ministry {
+width: 100%;
+}
+.heading h2 {
+font-size: 22px;
+}
+.heading-cost h2 {
+font-size: 22px;
+}
+nav.navbar.navbar-default.top-header {
+margin-bottom: 0;
+}
+nav.navbar.navbar-default.top-header .nav-justified {
+display: table;
+padding: 16px 0;
+height: 248px;
+}
+nav.navbar.navbar-default.top-header .nav-justified>li {
+margin: 0 5%;
+width: 40%;
+}
+.nav-justified>li {
+float: left;
+display: inline;
+padding: 8px 0;
+}
+.health-logo {
+padding-top: 0px;
+}
+.logo-image {
+display: inline-block;
+width: 30px;
+}
+.top-header .nav-pills>li a span {
+font-size: 10px;
+}
+.myhealth strong.myhealth, .myhealth h4 {
+font-size: 10px;
+}
+/* .top-head-logo .logo-ministry-right {
+margin-top: 8px;
+} */
+.top-head-logo {
+padding: 5px 0;
+}
+.myhealth {
+margin-top: 5px;
+display: inline-block;
+}
+.get-our-app {
+display: block;
+padding: 20px 0px 20px;
+text-align: center;
+width: 100%
+}
+.get-our-app h5 {
+font-size: 20px;
+margin-bottom: 6px;
+}
+.mobile-pic-head {
+width: 100%;
+}
+.get-our-app p {
+font-size: 10px;
+display: block;
+margin-bottom: 0;
+}
+.hidden-xs {
+display: block !important;
+}
+.search {
+display: none!important;
+}
+.header-image {
+margin-top: 25px;
+}
+.form-control {
+padding: 22px 12px;
+}
+.navbar-form {
+border: none;
+}
+.navbar-form {
+margin-top: 0;
+margin-bottom: 0;
+padding: 0;
+}
 }
 @media only screen and (max-width: 375px) {
 .nav>li>a {
-    padding: 10px 50px;
+padding: 10px 50px;
+}
+.hidden-xs {
+display: block !important;
+}
+.search {
+display: none!important;
+}
+.header-image {
+margin-top: 25px;
+}
+.form-control {
+padding: 22px 12px;
+}
+.search-button {
+max-width: auto !important;
 }
 .heading h2 {
-  font-size: 19px;
+font-size: 19px;
 }
 .heading-cost h2 {
-  font-size: 19px;
+font-size: 19px;
 }
 .heading a {
-  font-size:18px;
+font-size:18px;
 }
 .heading-cost a {
-  font-size: 18px;
+font-size: 18px;
 }
 .get-our-app {
-    display: block;
-    padding: 20px 0px 20px;
-    text-align: center;
-    width: 100%
+display: block;
+padding: 20px 0px 20px;
+text-align: center;
+width: 100%
 }
 .get-our-app h5 {
-  font-size: 20px;
-  margin-bottom: 6px;
+font-size: 20px;
+margin-bottom: 6px;
 }
 .mobile-pic-head {
-    width: 100%;
+width: 100%;
 }
 .get-our-app p {
-  font-size: 10px;
-  display: block;
-  margin-bottom: 0;
+font-size: 10px;
+display: block;
+margin-bottom: 0;
 }
 .mobile-star {
-    top: -110%;
-    width: 15%;
-}
-
-  .top-header .nav-pills>li a span {
-    font-size: 10px;
-}
-
-  .myhealth strong.myhealth, .myhealth h4 {
-    font-size: 10px;
-  }
-  .top-head-logo .logo-ministry-right {
-    margin-top: 8px;
-  }
-  .top-head-logo {
-    padding: 5px 0;
-  }
-  .myhealth {
-    margin-top: 5px;
-    display: inline-block;
-  }
-  nav.navbar.navbar-default.top-header {
-    margin-bottom: 0;
-  }
-nav.navbar.navbar-default.top-header .nav-justified {
-    display: table;
-    padding: 16px 0;
-    height: 248px;
-}
-nav.navbar.navbar-default.top-header .nav-justified>li {
-  margin: 0 5%;
-    width: 40%;
-}
-.nav-justified>li {
-    float: left;
-    display: inline;
-    padding: 8px 0;
-}
-.health-logo {
-  padding-top: 0px;
-}
-.logo-image {
-  display: inline-block;
-    width: 30px;
-}
-
-}
-@media only screen and (max-width: 320px) {
-  .nav>li>a {
-    padding: 10px 40px;
-}
-.mobile-app {
-  width: 40%;
-  }
-  .footer-last li a{
-    font-size: 10px;
-}
-.footer-text {
-  font-size: 6px;
+top: -110%;
+width: 15%;
 }
 .top-header .nav-pills>li a span {
-  font-size: 9px;
+font-size: 10px;
 }
 .myhealth strong.myhealth, .myhealth h4 {
-  font-size: 8px;
+font-size: 10px;
+}
+/* .top-head-logo .logo-ministry-right {
+margin-top: 8px;
+} */
+.top-head-logo {
+padding: 5px 0;
+}
+.myhealth {
+margin-top: 5px;
+display: inline-block;
+}
+nav.navbar.navbar-default.top-header {
+margin-bottom: 0;
+}
+nav.navbar.navbar-default.top-header .nav-justified {
+display: table;
+padding: 16px 0;
+height: 248px;
+}
+nav.navbar.navbar-default.top-header .nav-justified>li {
+margin: 0 5%;
+width: 40%;
+}
+.nav-justified>li {
+float: left;
+display: inline;
+padding: 8px 0;
+}
+.health-logo {
+padding-top: 0px;
 }
 .logo-image {
-  width: 25px;
+display: inline-block;
+width: 30px;
 }
-.book-image {
-  width: 8%!important;
+.logo-ministry-right {
+width: 100%;
+}
+.logo-ministry {
+width: 100%;
+}
+/* img {
+width: 100%;
+} */
+}
+@media only screen and (max-width: 360px) {
+.footer-last li a {
+font-size: 12px;
 }
 .heading h2 {
-    font-size: 14px;
+font-size: 18px;
 }
-.heading a {
-    font-size: 12px;
 }
-
+@media only screen and (max-width: 320px) {
+.nav>li>a {
+padding: 10px 40px;
 }
-@media only screen and (max-width: 280px) {
-  .nav>li> a {
-    padding: 10px 30px;
+.mobile-app {
+width: 40%;
 }
-.top-header .nav-pills > li a {
-  font-size: 10px;
+.footer-last li a{
+font-size: 10px;
 }
-.top-header .nav-pills > li a span {
-  font-size: 7px;
+.footer-text {
+font-size: 6px;
+}
+.top-header .nav-pills>li a span {
+font-size: 9px;
 }
 .myhealth strong.myhealth, .myhealth h4 {
-    font-size: 6px;
+font-size: 8px;
+}
+.logo-image {
+width: 25px;
+}
+.book-image {
+width: 8%!important;
+}
+.heading h2 {
+font-size: 14px;
+}
+.heading a {
+font-size: 12px;
+}
+}
+@media only screen and (max-width: 280px) {
+.nav>li> a {
+padding: 10px 30px;
+}
+.top-header .nav-pills > li a {
+font-size: 10px;
+}
+.top-header .nav-pills > li a span {
+font-size: 7px;
+}
+.myhealth strong.myhealth, .myhealth h4 {
+font-size: 6px;
 }
 }
